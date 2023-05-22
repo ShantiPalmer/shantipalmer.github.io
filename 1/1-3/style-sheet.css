@@ -1,0 +1,103 @@
+.nav {
+    background-color:white;
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 30px;
+    border-style: outset;
+    border-bottom-color: #CFCFCF;
+    border-top-color: white;
+    border-right-color: white;
+    border-left-color: white;
+}
+.td
+{
+    Font-family:Dosis;
+    font-size: 10px;
+}
+
+.time{
+    background-color:white;
+    padding: 4px;
+}
+.tiledBackground{
+    background-image: url"pexels-jessica-lewis-creative-867465.jpg"; 
+    position: relative;
+    background-size: 100px;
+    width: 1425px;
+    height: 675px;
+}
+.main-title{
+    position: absolute;
+    font-size: 30px;
+    font-family: Dosis, Arial;
+    padding-top: 70px;
+    padding-left: 60px;
+    padding-right:40px;
+    padding-bottom:30px;
+}
+
+.nav-li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 30px;
+    font-family: Dosis, Arial   
+}
+h1{
+    font-size: 40px;
+    font-family: Dosis, Arial;
+    position: absolute
+}
+div.sticky{
+    position: sticky;
+    position: sticky;
+    top: 0;
+    padding: 10;
+    background-color: white;
+    border: 2px 
+}
+
+
+.menu-h2{
+    font-size: 40px;
+    font-family: Dosis, Arial;
+     padding-top: 40px;
+    padding-left: 50px;
+    padding-right:40px;
+}
+
+    .Drinks-ul{
+        list-style-type: none;
+        margin: 1;
+        position: relative;
+        left: 30px;
+        top: 100px;
+        padding: 12px;
+}
+
+    .Drinks-li{
+        list-style-type: none;
+         font-family: Dosis, Arial;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+
+
+    .Food-ul{   
+        list-style-type: none;
+    }
+
+.Food-li{
+    list-style-type: none; 
+}
+
+    .Gift-Card-ul{
+
+}
+
+.Gift-Card-li{
+
+}
