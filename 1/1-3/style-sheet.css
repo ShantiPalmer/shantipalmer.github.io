@@ -36,22 +36,22 @@
     position: absolute;
     font-size: 30px;
     font-family: Dosis, Arial;
-    padding-top: 70px;
-    padding-left: 60px;
-    padding-right:40px;
-    padding-bottom:30px;
+    margin: 50px;
+    border-left: 100px;
 }
 
 .nav-li {
     display: inline-block;
     font-size: 20px;
-    padding: 30px;
+    padding: 20px;
     font-family: Dosis, Arial   
 }
 h1{
-    font-size: 40px;
+    font-size: 75px;
     font-family: Dosis, Arial;
-    position: absolute
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 800px;
 }
 div.sticky{
     position: sticky;
@@ -62,47 +62,55 @@ div.sticky{
     border: 2px 
 }
 
+.menu{
+    font-family: Dosis,Arial;
+    font-size: 50px;
+    padding-left: 100px;
 
+}
 .menu-h2{
-    font-size: 40px;
+    font-size: 35px;
     font-family: Dosis, Arial;
-     padding-top: 40px;
+    padding-top: 40px;
     padding-left: 50px;
     padding-right:40px;
 }
 
-    .Drinks-ul{
-        list-style-type: none;
-        margin: 1;
-        position: relative;
-        left: 30px;
-        top: 100px;
-        padding: 12px;
-}
-
-    .Drinks-li{
-        list-style-type: none;
-         font-family: Dosis, Arial;
-    font-size: 30px;
-    padding-top: 15px;
+.Drinks-ul{
+    list-style-type: none;
+    font-family: Dosis, Arial;
     padding-left:50px;
-    padding-right:50px;
 }
 
+.Drinks-li{
+    list-style-type: none;
+    font-family: Dosis, Arial;
+    padding-left:50px;
 
+}
 
-    .Food-ul{   
+.Food-ul{   
         list-style-type: none;
+        font-family: Dosis, Arial;
+        padding-left:50px;
+
     }
 
 .Food-li{
-    list-style-type: none; 
+    list-style-type: none;
+    font-family:Dosis,arial; 
+    padding-left: 50px;
 }
 
     .Gift-Card-ul{
+        list-style-type: none;
+        font-family: Dosis, Arial;
+        padding-left:50px;
 
 }
 
 .Gift-Card-li{
-
+    list-style-type: none;
+    font-family:Dosis,arial;
+    padding-left: 50px;
 }
