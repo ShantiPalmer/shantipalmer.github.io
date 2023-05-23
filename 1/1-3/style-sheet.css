@@ -50,16 +50,24 @@ h1{
     font-size: 75px;
     font-family: Dosis, Arial;
     position: absolute;
-    margin-top: 500px;
-    margin-left: 800px;
+    margin-top: 50px;
+    margin-left: 350px;
+}
+.hours{
+    padding-top: 50px;
+    padding-left: 40px;
 }
 div.sticky{
     position: sticky;
-    position: sticky;
-    top: 0;
-    padding: 10;
+    top: 0px;
+    padding: 10px;
     background-color: white;
     border: 2px 
+}
+.body{
+    margin:20px;
+    padding-top:200px;
+
 }
 
 .menu{
@@ -80,12 +88,14 @@ div.sticky{
     list-style-type: none;
     font-family: Dosis, Arial;
     padding-left:50px;
+    background-color: #EBA98F;
 }
 
 .Drinks-li{
     list-style-type: none;
     font-family: Dosis, Arial;
     padding-left:50px;
+    background-color: #EBA98F;
 
 }
 
@@ -93,19 +103,21 @@ div.sticky{
         list-style-type: none;
         font-family: Dosis, Arial;
         padding-left:50px;
-
+        background-color: #EBA98F;
     }
 
 .Food-li{
     list-style-type: none;
     font-family:Dosis,arial; 
     padding-left: 50px;
+    background-color: #EBA98F;
 }
 
     .Gift-Card-ul{
         list-style-type: none;
         font-family: Dosis, Arial;
         padding-left:50px;
+        background-color: #EBA98F;
 
 }
 
@@ -113,4 +125,6 @@ div.sticky{
     list-style-type: none;
     font-family:Dosis,arial;
     padding-left: 50px;
+    background-color: #EBA98F;
+    
 }
