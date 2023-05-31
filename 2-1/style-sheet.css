@@ -106,22 +106,40 @@ p.p-about{
 /*css for work page----------------------------*/
 p.p-work{
     font-size: 30px;
+    margin-left: 50px;
+    margin-top:100px;
 }
 
 p.p-volunteer-service{
     font-size:30px;
+    margin-top: 400px;
+    float: left;
 }
 
 table.work{
     width: 50%;
+    float:left;
+    float: top;
+
+    border-color: black;
+    border: 3px;
+    border-style:solid;
+    margin-bottom: 600px;
+}
+
+table.volunteer{
+    width:50%;
     float: left;
     border-color: black;
     border: 3px;
+    border-style:solid;
 }
-
-table.volunteer-service{
-    width:50%;
-    float: right;
-    border-color: black;
-    border: 3px;
+tr.line{
+    border-bottom-style: solid;
+}
+td.line{
+    border-bottom-style: solid;  
+}
+th.line{
+    border-bottom-style: solid;
 }
