@@ -57,7 +57,7 @@ div.sign-in{
     font-weight: 900;
     font-size: 14px;
     line-height: 16px;
-/* identical to box height---------------------------- */
+/* identical to box height */
 
     text-align: center;
 
@@ -69,6 +69,13 @@ div.sign-in{
 
 
 /*main picture on page----------------------------------*/
+div.big-pic{
+    position: absolute;
+    width: 1360px;
+    height: 616px;
+    left: 40px;
+    top: 99px;  
+}
 p.main-pic{
     position: absolute;
     width: 1360px;
@@ -77,3 +84,72 @@ p.main-pic{
     top: 99px;
     background: url(C:\Users\999976658\Desktop\code\shantipalmer.github.io\3\Rectangle.png);
 }
+div.places{
+    position: absolute;
+    width: 358px;
+    height: 93px;
+    left: 341px;
+    top: 350px;      
+}
+    div.places-words{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 78.9191px;
+        line-height: 92px;
+        
+        color: #FFFFFF; 
+    }
+        div.figma{
+            position: absolute;
+            width: 104px;
+            height: 22px;
+            left: 341px;
+            top: 443px;
+    }
+            div.figma-words{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 21px;
+            
+            color: #FFFFFF; 
+        }
+                #line{
+                    position: absolute;
+                    width: 343px;
+                    height: 0px;
+                    left: 525px;
+                    top: 466px;
+
+                    border: 2px solid #FFFFFF;
+                }
+                    #reserve{
+                        position: absolute;
+                        width: 251px;
+                        height: 54px;
+                        left: 341px;
+                        top: 526px;
+
+                        background: #031CFF;
+                        border-radius: 100px;
+                    }
+                        #reserve-words{
+                            position: absolute;
+                            width: 122px;
+                            height: 22px;
+                            left: 405px;
+                            top: 542px;
+                            
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 900;
+                            font-size: 18px;
+                            line-height: 21px;
+                            text-align: center;
+                            
+                            color: #FFFFFF;
+                            border-radius: 100px;
+                        }
+    
