@@ -1,29 +1,38 @@
 /* nav bar on top of page*/
-li.nav-li{
+
+.box{
 position: absolute;
 width: 398px;
 height: 17px;
 left: 855px;
 top: 44px;
-list-style-type: none;
-border-style:outset;
 
-font-family: 'Campton';
-font-size: 12px;
-line-height: 14px;
-
-color: #3D3D3D;
+border-color:blue;
 }
-.little-blue{
+li.nav-li{
+    font-family: 'Campton';
+    font-size: 12px;
+    line-height: 14px;
+display: inline; 
+color: #3D3D3D;
+
+}
+ul{
+list-style-type: none;  
+position: sticky;
+
+}
+#little-blue{
     position: absolute;
     width: 100px;
     height: 4px;
     left: 968px;
     top: 1px;
+    background: #031CFF ;
 
-background: #031CFF;
+
 }
-.signIn-box{
+#signIn-box{
     box-sizing: border-box; 
     position: absolute;
     width: 103px;
@@ -33,6 +42,7 @@ background: #031CFF;
 
     border: 1px solid #031CFF;
     border-radius: 100px;
+    
   
 }
 div.sign-in{
@@ -47,7 +57,7 @@ div.sign-in{
     font-weight: 900;
     font-size: 14px;
     line-height: 16px;
-/* identical to box height */
+/* identical to box height---------------------------- */
 
     text-align: center;
 
@@ -58,7 +68,7 @@ div.sign-in{
 
 
 
-/*main picture on page*/
+/*main picture on page----------------------------------*/
 p.main-pic{
     position: absolute;
     width: 1360px;
